@@ -155,3 +155,37 @@
         </foreground>
 </shape>
 ```
+## MUX21
+```xml
+<shape h="50" w="40" aspect="variable" strokewidth="inherit">
+        <connections>
+                <constraint x="0" y="0.4" perimeter="1" />
+                <constraint x="0" y="0.8" perimeter="1" />
+                <constraint x="1" y="0.6" perimeter="1" />
+                <constraint x="0.5" y="0" perimeter="1" />
+        </connections>
+        <background>
+                <path>
+                        <move x="0" y="20" />
+                        <line x="10" y="20" />
+                        <move x="0" y="40" />
+                        <line x="10" y="40" />
+                        <move x="40" y="30" />
+                        <line x="30" y="30" />
+                        <move x="20" y="15" />
+                        <line x="20" y="0" />
+                        <move x="10" y="10" />
+                        <line x="10" y="50" />
+                        <line x="30" y="40" />
+                        <line x="30" y="20" />
+                        <close />
+                        <fillstroke />
+                        <stroke />
+                </path>
+        </background>
+        <foreground>
+                <text str="0" x="10" y="20.5" align="left" valign="middle" />
+                <text str="1" x="10" y="40.5" align="left" valign="middle" />
+        </foreground>
+</shape>
+```
