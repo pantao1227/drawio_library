@@ -1,7 +1,7 @@
 # drawio_library
 
 ## Logic Items
-### INV
+### BUF
 ```xml
 <shape h="40" w="60" aspect="variable" strokewidth="inherit">
         <connections>
@@ -24,6 +24,36 @@
         <foreground>
                 <fillstroke />
                 <stroke />
+        </foreground>
+</shape>
+```
+## INV
+```xml
+<shape h="40" w="60" aspect="variable" strokewidth="inherit">
+        <connections>
+                <constraint x="0" y="0.5" perimeter="1" />
+                <constraint x="1" y="0.5" perimeter="1" />
+        </connections>
+        <background>
+                <path>
+                        <move x="10" y="0" />
+                        <line x="10" y="20" />
+                        <line x="0" y="20" />
+                        <line x="10" y="20" />
+                        <line x="10" y="40" />
+                        <line x="44" y="20" />
+                        <close />
+                        <move x="50" y="20" />
+                        <line x="60" y="20" />
+                        <move x="44" y="20" />
+                        <line x="44" y="20" />
+                </path>
+                <fillstroke />
+                <stroke />
+                <ellipse x="44" y="17" w="6" h="6" />
+                <stroke />
+        </background>
+        <foreground>
         </foreground>
 </shape>
 ```
@@ -80,8 +110,7 @@
                 </path>
                 <fillstroke />
                 <stroke />
-                <ellipse x="44" y="17" w="6" h="6" />
-                <stroke />
+                
         </background>
         <foreground>
         </foreground>
