@@ -189,3 +189,23 @@
         </foreground>
 </shape>
 ```
+## TAP
+```xml
+<shape h="20" w="20" aspect="variable" strokewidth="inherit">
+        <connections>
+                <constraint x="0" y="0.5" perimeter="1" />
+        </connections>
+        <background>
+                <path>
+                        <move x="0" y="0" />
+                        <line x="0" y="20" />
+                        <line x="20" y="10" />
+                        <close />
+                </path>
+                <fillstroke />
+                <stroke />
+        </background>
+        <foreground>
+        </foreground>
+</shape>
+```
