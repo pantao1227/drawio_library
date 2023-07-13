@@ -70,17 +70,17 @@
                         <line x="10" y="10" />
                         <move x="0" y="30" />
                         <line x="10" y="30" />
-                        <move x="52" y="20" />
+                        <move x="50" y="20" />
                         <line x="60" y="20" />
-                        <move x="30" y="0" />
+                        <move x="24" y="0" />
                         <line x="10" y="0" />
                         <line x="10" y="40" />
-                        <line x="30" y="40" />
-                        <arc x="30" y="0" rx="20" ry="20" />
+                        <line x="24" y="40" />
+                        <arc x="24" y="0" rx="20" ry="20" />
                 </path>
                 <fillstroke />
                 <stroke />
-                <ellipse x="50" y="19" w="2" h="2" />
+                <ellipse x="44" y="17" w="6" h="6" />
                 <stroke />
         </background>
         <foreground>
