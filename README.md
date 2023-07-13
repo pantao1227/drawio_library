@@ -209,3 +209,48 @@
         </foreground>
 </shape>
 ```
+## SDFRPQD
+```xml
+<shape h="70" w="60" aspect="variable" strokewidth="inherit">
+        <connections>
+                <constraint x="0" y="0.142857" perimeter="1" />
+                <constraint x="0" y="0.285714" perimeter="1" />
+                <constraint x="0" y="0.428571" perimeter="1" />
+                <constraint x="0" y="0.7142857" perimeter="1" />
+                <constraint x="0.5" y="1" perimeter="1" />
+                <constraint x="1" y="0.142857" perimeter="1" />
+        </connections>
+        <background>
+                <rect x="10" y="0" w="40" h="60" />
+                <fillstroke />
+                <stroke />
+                <path>
+                        <move x="10" y="10" />
+                        <line x="0" y="10" />
+                        <move x="10" y="20" />
+                        <line x="0" y="20" />
+                        <move x="10" y="30" />
+                        <line x="0" y="30" />
+                        <move x="10" y="50" />
+                        <line x="0" y="50" />
+                        <move x="30" y="60" />
+                        <line x="30" y="70" />
+                        <move x="50" y="10" />
+                        <line x="60" y="10" />
+                        <move x="10" y="45" />
+                        <line x="15" y="50" />
+                        <line x="10" y="55" />
+                </path>
+                <fillstroke />
+                <stroke />
+        </background>
+        <foreground>
+                <text str="D" x="10.5" y="10" align="left" valign="middle" />
+                <text str="SI" x="10.5" y="20" align="left" valign="middle" />
+                <text str="SE" x="10.5" y="30" align="left" valign="middle" />
+                <text str="CP" x="15.5" y="50" align="left" valign="middle" />
+                <text str="CD" x="30" y="59.5" align="center" valign="bottom" />
+                <text str="Q" x="49.5" y="10" align="right" valign="middle" />
+        </foreground>
+</shape>
+```
