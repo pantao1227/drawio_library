@@ -249,8 +249,11 @@
                 <text str="SI" x="10.5" y="20" align="left" valign="middle" />
                 <text str="SE" x="10.5" y="30" align="left" valign="middle" />
                 <text str="CP" x="15.5" y="50" align="left" valign="middle" />
-                <text str="CD" x="30" y="59.5" align="center" valign="bottom" />
                 <text str="Q" x="49.5" y="10" align="right" valign="middle" />
+                <save />
+                <fontsize size="6" />
+                <text str="CD" x="31" y="60.5" align="left" valign="top" />
+                <restore />
         </foreground>
 </shape>
 ```
