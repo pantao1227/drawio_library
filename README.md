@@ -1,6 +1,54 @@
 # drawio_library
 
 ## Logic Items
+### PORT
+#### IN
+```xml
+<shape h="6" w="6" aspect="fixed" strokewidth="inherit">
+        <connections>
+                <constraint x="1" y="0.5" perimeter="1" />
+        </connections>
+        <background>
+                <fillstroke/>
+                <path>
+                        <move x="0" y="1" />
+                        <line x="3" y="1" />
+                        <line x="6" y="3" />
+                        <line x="3" y="5" />
+                        <line x="0" y="5" />
+                        <close />
+                </path>
+        </background>
+        <foreground>
+                <fillstroke />
+                <stroke />
+        </foreground>
+</shape>
+```
+#### OUT
+```xml
+<shape h="6" w="6" aspect="fixed" strokewidth="inherit">
+        <connections>
+                <constraint x="0" y="0.5" perimeter="1" />
+        </connections>
+        <background>
+                <fillstroke/>
+                <path>
+                        <move x="0" y="1" />
+                        <line x="3" y="1" />
+                        <line x="6" y="3" />
+                        <line x="3" y="5" />
+                        <line x="0" y="5" />
+                        <close />
+                </path>
+        </background>
+        <foreground>
+                <fillstroke />
+                <stroke />
+        </foreground>
+</shape>
+```
+
 ### BUF
 ```xml
 <shape h="40" w="60" aspect="variable" strokewidth="inherit">
