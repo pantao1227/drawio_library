@@ -381,3 +381,34 @@
         </foreground>
 </shape>
 ```
+## latch
+```xml
+<shape h="40" w="60" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.25" perimeter="1"/>
+    <constraint x="0" y="0.75" perimeter="1"/>
+    <constraint x="1" y="0.25" perimeter="1"/>
+  </connections>
+  <background>
+    <rect x="10" y="0" w="40" h="40"/>
+    <fillstroke/>
+    <stroke/>
+  </background>
+  <foreground>
+    <path>
+      <move x="0" y="10"/>
+      <line x="10" y="10"/>
+      <text str="D" x="11" y="10" align="left" valign="middle"/>
+      <move x="0" y="30"/>
+      <line x="10" y="30"/>
+      <text str="E" x="11" y="30" align="left" valign="middle"/>
+      <move x="60" y="10"/>
+      <line x="50" y="10"/>
+      <text str="Q" x="49" y="10" align="right" valign="middle"/>
+    </path>
+    <fillstroke/>
+    <stroke/>
+  </foreground>
+</shape>
+```
+
