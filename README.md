@@ -395,6 +395,7 @@
     <stroke/>
   </background>
   <foreground>
+    <fontsize size="6" />
     <path>
       <move x="0" y="10"/>
       <line x="10" y="10"/>
